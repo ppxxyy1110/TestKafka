@@ -1,12 +1,12 @@
-package com.testkafka.testkafka;
+package com.testkafka.testkafkaconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestkafkaApplication {
-
+public class TestkafkaConsumerApplication {
+	
 	public static void main(String[] args) {
-		SpringApplication.run(TestkafkaApplication.class, args);
+		SpringApplication.run(TestkafkaConsumerApplication.class, args);
 	}
 }
