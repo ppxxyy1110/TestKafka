@@ -4,9 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
 
-public class KafkaConsumer {
+public class KafkaConsumerListener {
 
-	public static Logger logger = LoggerFactory.getLogger(KafkaConsumer.class);
+	public static Logger logger = LoggerFactory.getLogger(KafkaConsumerListener.class);
     /**
      * 监听test主题,有消息就读取
      * @param message
